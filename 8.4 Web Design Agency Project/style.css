@@ -1,0 +1,149 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+span {
+  color: blue;
+}
+
+.card {
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.card img {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  padding: 20px 0;
+}
+
+/* สำหรับหน้าจอมือถือขนาดเล็ก (max-width: 320px) */
+@media (max-width: 320px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    margin: 0 0 20px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* สำหรับหน้าจอมือถือทั่วไป (max-width: 480px) */
+@media (max-width: 480px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    margin: 0 0 20px 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+/* สำหรับแท็บเล็ต (min-width: 481px) และ (max-width: 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 48%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
+
+/* สำหรับหน้าจอเดสก์ท็อปทั่วไป (min-width: 769px) */
+@media (min-width: 769px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+}

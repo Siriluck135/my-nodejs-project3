@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .container{
+        background-color: #4e73df;
+        display:inline-block;
+        height: 900px;
+        width: 200px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+    .interface{
+      font-family: "Nunito Sans", sans-serif;
+        font-size: 9px;
+        text-align: left;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: "Nunito Sans", sans-serif;
+        display: inline;
+        margin-left: 1rem ;
+        text-align: center;
+        margin-top: 1rem; 
+        position: absolute;
+        top: 16px;
+        color: aliceblue;
+    }
+    .name{
+        color: #888888;
+        position: absolute;
+      top: 27px;
+      right: 90px;
+      font-size: 16px;
+      font-family: "Nunito Sans", sans-serif;
+    }
+
+  
+  
+    .cc{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      position: absolute;
+      top:30px;
+      left: 20px;
+     
+    }
+    .cc1{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 98px;
+      left: 27px;
+     
+    }
+    .cc2{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 185px;
+      left: 27px;
+     
+    }
+    .cc3{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 228px;
+      left: 27px;
+     
+    }
+    .cc4{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 316px;
+      left: 27px;
+     
+    }
+    .cc5{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 358px;
+      left: 27px;
+     
+    }
+    .cc6{
+        
+        display: inline-block;
+        background-color: aliceblue;
+      height: 15px;
+      width: 15px;
+      border-radius: 100%;
+      position: absolute;
+      top: 402px;
+      left: 27px;
+     
+    }
+
+    p{
+      font-family: "Nunito Sans", sans-serif;
+        font-size: 18.5px;
+        text-align: left;
+        color: #ffffffaf;
+
+    }
+    .bar{
+        display: inline-block;
+        width: 1050px;
+        height: 70px;
+        background-color: rgb(255, 255, 255); 
+        position: absolute;
+        -moz-box-shadow: 10px 10px 5px #888888; /* Old Firefox */
+         box-shadow: 0px 5px 60px #d3d2d2;
+        }
+    .Dash{
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 27px;
+        color: #696969;
+        position: absolute;
+      top: 95px;
+      left: 275px;
+    }
+    .re{
+      background-color: #4e73df;
+      width: 150px;
+        height: 25px;
+        font-family: "Nunito Sans", sans-serif;
+      font-size: 16px;
+      border-radius: 5px;
+      text-align: center;
+        color: #ffffff;
+        position: absolute;
+      top: 100px;
+      left: 1120px;
+      
+    }
+    .search{
+      color: #888888;
+        width: 350px;
+        height: 40px;
+        position: absolute;
+        left: 40px;
+        top: 27px;
+    }
+    
+    .search1{
+        width: 350px;
+        height: 40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: rgba(223, 221, 219, 0.541);
+        position: absolute;
+        left: 30px;
+        top: 15px;
+        
+    }
+    .search2{
+        width: 40px;
+        height: 40px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: #4e73df;
+        position: absolute;
+        left: 380px;
+        top: 15px;
+    }
+
+    .myself{
+        display: inline-block;
+        background-color: rgba(188, 190, 192, 0.432);
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      position: absolute;
+      top: 20px;
+      right: 50px;
+        
+    }
+    .bb1{
+        display: inline-block;
+        background-color: rgba(188, 190, 192, 0.432);
+      height: 40px;
+      width: 2px;
+      position: absolute;
+      top: 15px;
+      right: 179px;
+        
+    }
+
+    .bb2{
+        display: inline-block;
+        background-color: rgba(188, 190, 192, 0.432);
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      position: absolute;
+      top: 20px;
+      right: 195px;
+        
+    }
+    
+    .bb3{
+        display: inline-block;
+        background-color: rgba(188, 190, 192, 0.432);
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      position: absolute;
+      top: 20px;
+      right: 240px;
+        
+    }
+
+
+    .box1{
+        width: 220px;
+        height: 90px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 270px;
+        top: 150px;
+        border-radius: 8px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+        border-left: 5px solid #4e73df;
+       
+    }
+    .text1{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 14px;
+         color: #4e73df;
+         position: absolute;
+      top: 20px;
+      left: 20px;
+
+    }
+    .num{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 23px;
+         color: #656668;
+         position: absolute;
+      top: 40px;
+      left: 20px;
+
+    }
+    .box2{
+        width: 220px;
+        height: 90px;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        left: 530px;
+        top: 150px;
+        border-radius: 8px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+        border-left: 5px solid #1cc88a;
+    }
+    .text2{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 14px;
+         color:  #1cc88a;
+         position: absolute;
+         top: 20px;
+         left: 20px;
+    }
+    .box3{
+        width: 220px;
+        height: 90px;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        left: 790px;
+        top: 150px;
+        border-radius: 8px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+        border-left: 5px solid #36b9cc;
+    }
+    .text3{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 14px;
+         color:  #36b9cc;
+         position: absolute;
+         top: 20px;
+         left: 20px;
+    }
+    .box4{
+        width: 220px;
+        height: 90px;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        left: 1050px;
+        top: 150px;
+        border-radius: 8px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+        border-left: 5px solid #f8d16a;
+    }
+    .text4{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 14px;
+         color: #f8d16a;
+         position: absolute;
+         top: 20px;
+         left: 20px;
+    }
+    
+    .dd{
+        width: 650px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 270px;
+        top: 280px;
+        border-radius: 5px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+    }
+    .Earn{
+      font-family: "Nunito Sans", sans-serif;
+      border-radius: calc(.35rem - 1px) calc(.35rem - 1px) 0 0;
+      padding-bottom: 1rem ;
+      padding-top: 1rem ;
+      display: flex ;
+      padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    color: #4e73df;
+    }
+    .ff{
+      
+        width: 322px;
+        height: 400px;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        left: 950px;
+        top: 280px;
+        border-radius: 3px;
+        display: inline-block;
+        -moz-box-shadow: 10px 10px 5px #5e5e5e8f; /* Old Firefox */
+        box-shadow: 0px 5px 60px #d3d2d2;
+    }
+    .ccc{display: inline-block;
+        background-color: rgb(112, 188, 255);
+        
+      height: 230px;
+      width: 230px;
+      border-radius: 100%;
+      position: relative;
+      top: 50px;
+      left: 50px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="cc"></div>
+        <h2><b> SB ADMIN</h2></p><br/>
+        <br/><hr  width = "90%" size = "3"/>
+        <div class="cc1"></div>
+        <p>Dashboard</p>
+        <hr  width = "90%" size = "3"/>
+        <p class="interface">INTERFACE</p>
+        <div class="cc2"></div>
+        <p>Components</p>
+        <div class="cc3"></div>
+        <p>Untitles</p>
+        <hr width = "90%" size = "3"/>
+        <p class="interface">ADDONS</p>
+        <div class="cc4"></div>
+        <p>Pages</p>
+        <div class="cc5"></div>
+        <p>Charges</p>
+        <div class="cc6"></div>
+        <p>Tables</p>
+        <hr width = "90%" size = "3"/>
+        
+       </div>
+    
+
+    <div class="bar">
+        <div class="search">Search for...</div>
+        <div class="search1"></div>
+        <div class="search2"></div>
+        <div class="myself"></div>
+        <div class="name">User Name</div>
+        <div class="bb1"></div>
+        <div class="bb2"></div>
+        <div class="bb3"></div>
+    </div>
+    <div class="Dash">Dashboard</div>
+    <div class="re">Generate Report</div>
+    <div class="box1">
+      <div class="text1">Earnings (Monthly)<br/></div>
+        <div class="num">$40,000</div>
+    </div>
+    <div class="box2">
+      <div class="text2">Earnings (Annual)<br/></div>
+        <div class="num">$215,000</div>
+    </div>
+    <div class="box3">
+      <div class="text3">Tasks<br/></div>
+        <div class="num">50%</div>
+    </div>
+    <div class="box4">
+      <div class="text4">Pending Requests<br/></div>
+        <div class="num">18</div>
+    </div>
+
+
+    <div>
+        <div class="dd">
+          <div class="Earn">Earnings Overview</div>
+        </div>
+        <div class="ff">
+          <div class="Earn">Revenue Sources</div>
+          <div class="ccc"></div>
+        </div>
+           
+    </div>
+
+
+    
+</body>
+</html>

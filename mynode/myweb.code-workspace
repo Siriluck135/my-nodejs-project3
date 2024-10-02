@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "myweb",
+			"path": ".."
+		},
+		{
+			"name": "mynode",
+			"path": "../../mynode"
+		}
+	],
+	"settings": {}
+}

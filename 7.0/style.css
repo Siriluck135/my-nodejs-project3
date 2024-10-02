@@ -1,0 +1,22 @@
+/* Don't change the existing CSS. */
+body{
+  border: 10px solid purple;
+}
+.box {
+  background-color: blue;
+  padding: 10px;
+  
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+ 
+}
+.white-text{
+border: 20px solid red;
+background-color: red;
+color: white;
+}
